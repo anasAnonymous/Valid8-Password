@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Poppin);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #00ff00;
+}
+
+body{
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heading h2 {
+    color: #999;
+}
+
+.main{
+    margin: 70px;
+    background-color: black;
+    border: 1.5px solid;
+    border-radius: 10px;
+    border-color: #00ff00;
+    width: 500px;
+    padding: 30px;
+}
+
+.main .passBox{
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+
+.passBox input{
+    background-color: black;
+    color: #aaa;
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    border-color: #00ff00;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+.passBox i{
+    color: #00ff00;
+    right: 10px;
+    position: absolute;
+    transform: translate(-50%);
+    top: 25%;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.main .instructions{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 3px;
+    outline: none;
+}
+
+.instructions p{
+    font-size: 1.2rem;
+}
+
+.instructions .list_conditions{
+    margin-top: 10px;
+}
+.instructions h3{
+    color: #00ff00;
+}
+.list_conditions li{
+    color: #aaa;
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.list_conditions li i{
+    font-size: 0.5rem;
+    width: 20px;
+    color:#00ff00;
+}
+
+.list_conditions li span{
+    color: #aaa;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    .main {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+}
