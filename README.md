@@ -21,7 +21,7 @@ The program checks if a password meets the following criteria:
    ```bash
    git clone https://github.com/your-username/password-validation.git
 
-- Open the index.html file in your web browser.
+- Open the 'passwordValidation.html' file in your web browser.
 - Enter a password in the provided input box.
 - The program will dynamically update to show which criteria the entered password meets.
 
